@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <!-- 1. HTML element -->
+    <!-- <html>, <head> <body> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mari Lestarikan Alam</title>
+ 
+    <!-- 2. HTML attribute -->
+    <!-- <meta>, <head>, <body>, dan <style> -->
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #bdecb6;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #006600;
+            color: #ffffff;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+        a {
+            color: #3366cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 3. HTML heading -->
+    <!-- judul besar. -->
+    <header>
+        <h1>JAGA LINGKUNGAN KITA</h1>
+    </header>
+    <!-- 4. HTML paragraph -->
+    <!-- Paragraph (<p>) -->
+    <div class="container">
+        <h2>Kelestarian Alam</h2>
+        <p>Selamat datang di halaman web yang mengangkat tema kelestarian alam. Kami berkomitmen untuk melestarikan lingkungan demi masa depan yang lebih baik.</p>
+        
+        <!-- 6. HTML Formatting -->
+        <!-- teks tebal dan teks miring -->
+        <h3>Misi Kami</h3>
+        <p>Kami bertekad untuk:</p>
+        <ul>
+            <li>Menjaga keanekaragaman hayati</li>
+            <li>Mengurangi jejak karbon</li>
+            <li>Memperkuat kesadaran lingkungan</li>
+        </ul>
+        
+        <!-- 8. HTML image -->
+        <!-- Elemen <img> -->
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBfW4dpshHGfMWvnAscayOrYgeqebOdD4k5A&usqp=CAU" alt="Gambar Alam">
+        
+        <h3>Ikuti Kami dalam Perjalanan Kami</h3>
+        
+        <!-- 7. HTML links -->
+        <!-- Elemen <a>  -->
+        <p>Bergabunglah dengan kami dalam menjaga kelestarian alam. Kunjungi <a href="https://www.behance.net/eloooyhm" target="_blank">website kami</a> untuk informasi lebih lanjut.</p>
+    </div>
+    
+    <!-- 5. HTML style -->
+    <!-- Menentukan gaya dan tata letak halaman. -->
+    
+    <!-- 8. HTML image -->
+    <!-- Menampilkan gambar di halaman web. -->
+    <footer>
+        <p>&copy; 2023 Mari Lestarikan Alam | Hubungi: ilhamrigan22@gmail.com | Telepon: +6289670916052</p>
+    </footer>
+</body>
+</html>
+
