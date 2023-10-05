@@ -42,11 +42,27 @@
             text-decoration: none;
             font-weight: bold;
         }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
         footer {
             background-color: #333;
             color: #fff;
             text-align: center;
             padding: 10px;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -81,6 +97,68 @@
         <!-- 7. HTML links -->
         <!-- Elemen <a>  -->
         <p>Bergabunglah dengan kami dalam menjaga kelestarian alam. Kunjungi <a href="https://www.behance.net/eloooyhm" target="_blank">website kami</a> untuk informasi lebih lanjut.</p>
+
+<!-- 9. HTML table -->
+<h3>Data Kontributor</h3>
+<table>
+    <tr>
+        <th>Nama</th>
+        <th>Email</th>
+        <th>Tema Lingkungan</th>
+    </tr>
+    <tr>
+        <td>John Doe</td>
+        <td>john.doe@gmail.com</td>
+        <td>Pengurangan Plastik</td>
+    </tr>
+    <tr>
+        <td>Jane Smith</td>
+        <td>jane.smith@gmail.com</td>
+        <td>Pohon Untuk Masa Depan</td>
+    </tr>
+    <!-- Tambahkan teman-teman lingkungan di bawah ini -->
+    <tr>
+        <td>Rina Anugerah</td>
+        <td>rina.anugerah@gmail.com</td>
+        <td>Recycle Everywhere</td>
+    </tr>
+    <tr>
+        <td>Arief Cahaya</td>
+        <td>arief.cahaya@gmail.com</td>
+        <td>Edukasi Lingkungan di Sekolah</td>
+    </tr>
+</table>
+
+<!-- 10. HTML Form -->
+<h3>Kontribusikan Ide Anda</h3>
+<form action="/submit_idea.php" method="post">
+    <div>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+    </div>
+
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+
+    <div>
+        <label for="tema">Tema Lingkungan:</label>
+        <input type="text" id="tema" name="tema" required>
+    </div>
+
+    <div>
+        <label for="idea">Ide Anda:</label>
+        <textarea id="idea" name="idea" rows="4" required></textarea>
+    </div>
+
+    <div>
+        <input type="submit" value="Kirim Ide">
+    </div>
+</form>
+
+
+
     </div>
     
     <!-- 5. HTML style -->
@@ -93,4 +171,3 @@
     </footer>
 </body>
 </html>
-
